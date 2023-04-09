@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+    group:
+      dev:
+        - global-dev
+        - db-dev
+        - s3-dev
+      prod:
+        - global-prod
+        - db-prod
+        - s3-prod
+    include:
+      - global
+      - s3
+      - const
+      - db
+      - jwt
+      - security
+      - ssl

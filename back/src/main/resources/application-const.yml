@@ -1,0 +1,10 @@
+app:
+  cache:
+    flavor-key: flavorMinMax
+    price-key: whiskyPriceTier
+  rec:
+    topK: 9
+
+review:
+  rating:
+    standard: 3.5

@@ -1,0 +1,35 @@
+::selection {
+  background: #f84f5a;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.my-swal-container .swal2-title {
+  font-size: 20px;
+}
+
+.my-swal-confirm-button {
+  background-color: #f84f5a !important;
+  color: #ffffff !important;
+}
+
+.my-swal-cancel-button {
+  background-color: #dedede !important;
+  color: #ffffff !important;
+}
+
+.my-swal-icon {
+  border-color: #f84f5a !important;
+  color: #f84f5a !important;
+}
